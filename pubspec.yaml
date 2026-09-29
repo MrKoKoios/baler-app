@@ -1,0 +1,32 @@
+name: mrkoko_signal_pro
+description: MR KOKO Signal Pro - Real API Trading Analysis
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_overlay_window: ^0.3.0
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.9.0
+  permission_handler: ^11.0.1
+  http: ^1.2.0          # Binance API calls
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+
+  # image package সরিয়ে দিলাম — screenshot আর নেই
+  # image: ^4.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.jpg
